@@ -46,12 +46,18 @@ kiválasztani az értéket akkor legördülő menü, ha hosszabb szöveg akkor t
 műveletekről vagy az esetleges hibákról.
 
 ## Előkészítés
-- A csapat egyik tagja forkolja a következő repo -t:
-- `https://github.com/cherryApp/str-angular-project-big`
-- Hívja meg a többieket együttműködőknek a github felületén.
-- Mindenki klónozza le magának a forkolt repo -t.
-- Készítsen a saját gépén egy új Angular alkalmzást.
-- Kösse össze a Github repoval.
+- A csapat egyik tagja hozza létre a csapatot a Github ClassRoom felületén.
+- A többi csapattag a ClassRoom felületén lépjen be a már létrehozott csapatba.
+- A csapat hozzon létre egy saját azonosítót, ami maximum 8 angol karakterből áll.
+- Ezt az azonosítót adja meg a gyakorlatvezetőnek, aki ez alapján elkészíti számukra 
+az adatbázist a távoli json szerveren.
+- [A szerver URL a következő lesz](https://nettuts.hu/jms/<azonosító>/
+- Ezt az URL-t kell majd beállítani az environment változóban az alkalmazásban.
+- Beszéljék meg a csapat tagjai, hogy milyen entitásokat és milyen mezőket szeretnének 
+használni és ezek alapján generálják le az adatokat tartalmazó .json fájlokat a 
+[Mockaroo](https://www.mockaroo.com/) alkalmazásban.
+- Küldjék el a generált .json fájlokat a gyakorlatvezetőknek, akik majd elhelyeziik 
+ezeket a szerveren.
 
 ## Technikai leírás - fejlesztés lépései
 ### 1. Szükséges osztályok
@@ -68,7 +74,7 @@ minimálisan szerepelniük kell az osztályokban.
 
 ### 2. Szükséges szolgáltatások
 A szolgáltatások felelnek az adatok kezeléséért, azok mozgatásáért az adatbázis 
-szerver (json-server) és a komponensek között. 
+szerver és a komponensek között. 
 - Minden fő adattípushoz tartozzon egy szolgáltatás 
 (product, customer, order, bill).
 - Az adatokat .json fájlban tároljuk, ezek lehetnek egy fájlban is azért, hogy 
