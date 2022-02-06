@@ -13,7 +13,12 @@ __Megjelenése:__
 - Az alkalmazást a mellékelt minták alapján kell elkészíteni, amelyek a 
 `material-dashboard-master` nevű almappában találhatók.
 - Az alkalmazás egy fejléccel és egy bal oldali navigációval rendelkezik. Az 
-egyes oldalak között a bal oldali navigáció segítségével lehet váltani.  
+egyes oldalak között a bal oldali navigáció segítségével lehet váltani.
+- Az Angular alkalmazást minden csapatnak önállóan kell elkésztenie, 
+a mellékelt minták csupán segítenek ebben.
+- A javasolt munkamenet az, hogy a nyers .html sablonok és .css 
+állományok alapján készítsenek a csapatok Angular komponenseket és 
+ezekből építsék fel a teljes alkalmazást.  
 
 __Főbb részei:__  
 - Dashboard: ez a főoldal, itt jelennek meg a statisztikák a vásárlókról, 
