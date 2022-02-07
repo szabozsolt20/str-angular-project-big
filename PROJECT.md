@@ -1,4 +1,4 @@
-# Angular Záró Csapat Projekt
+# Angular Záró Csapatprojekt
 
 ## Feladat
 Készítsetek egy adminfelületet Angular segítségével a megadott 
@@ -16,8 +16,8 @@ __Megjelenése:__
 egyes oldalak között a bal oldali navigáció segítségével lehet váltani.
 - Az Angular alkalmazást minden csapatnak önállóan kell elkésztenie, 
 a mellékelt minták csupán segítenek ebben.
-- A javasolt munkamenet az, hogy a nyers .html sablonok és .css 
-állományok alapján készítsenek a csapatok Angular komponenseket és 
+- A javasolt munkamenet az, hogy a nyers .html-sablonok és 
+.css-állományok alapján készítsenek a csapatok Angular komponenseket és 
 ezekből építsék fel a teljes alkalmazást.   
 
 __Főbb részei:__  
@@ -51,8 +51,8 @@ kiválasztani az értéket, akkor legördülő menü, ha hosszabb szöveg, akkor
 műveletekről vagy az esetleges hibákról.
 
 ## Előkészítés
-- A csapat egyik tagja hozza létre a csapatot a Github ClassRoom felületén.
-- A többi csapattag a ClassRoom felületén lépjen be a már létrehozott csapatba.
+- A csapat egyik tagja hozza létre a csapatot a GitHub Classroom felületén.
+- A többi csapattag a Classroom felületén lépjen be a már létrehozott csapatba.
 - A csapat hozzon létre egy saját azonosítót, ami maximum 8 angol karakterből áll.
 - Ezt az azonosítót adja meg a gyakorlatvezetőnek, aki ez alapján elkészíti számukra 
 az adatbázist a távoli json szerveren.
@@ -158,6 +158,8 @@ kell lennie.
 -------
 
 ## Extrák
+- Tesztelés: komponensenként legyen legalább 5 unit teszt.  
+(Erről külön konzultációt fogunk tartani.)
 - Grafikonos megjelenítések a Dashboard oldalon.
 - Azoknál a gomboknál, ahol kattintás után a szerver válaszára várunk, legyen 
 animáció, amely ezt jelzi.
