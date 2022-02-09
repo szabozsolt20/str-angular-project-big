@@ -1,1 +1,18 @@
-<p>home works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <table>
+        <tbody>
+          <tr *ngFor="let customer of list$ | async">
+            <td>{{ customer.id }}</td>
+            <td>{{ customer.firstName }}</td>
+            <td>{{ customer.lastName }}</td>
+            <td>{{ customer.email }}</td>
+            <td>{{ customer.address.full }}</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
